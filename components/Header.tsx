@@ -5,7 +5,6 @@ import { useEffect, useState } from "react";
 
 export default function Header() {
   const [currentPath, setCurrentPath] = useState<string>("");
-
   useEffect(() => {
     setCurrentPath(window.location.pathname);
   }, []);
@@ -13,13 +12,14 @@ export default function Header() {
     <header className="flex flex-row gap-2">
       {routerList.map((data) => (
         <Link key={`header-${data.path}`} href={data.path}>
-          <div
+          <button
             className={`${
               currentPath === data.path ? "bg-blue-400 text-white" : "bg-white"
-            } shadow-md py-2 px-4 rounded-md text-sm`}
+            } shadow-md py-2 px-4 rounded-md text-sm hover:opacity-70`}
+            onClick={() => setCurrentPath(data.path)}
           >
             {data.label}
-          </div>
+          </button>
         </Link>
       ))}
     </header>

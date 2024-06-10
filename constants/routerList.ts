@@ -6,8 +6,13 @@ const routerList = [
   },
   {
     label: "Api Method",
-    path: "/api-method",
+    path: "/1-api-method",
     desc: "내장 API 사용 및 method 테스트",
+  },
+  {
+    label: "Server Rendering",
+    path: "/2-server-rendering",
+    desc: "서버 렌더링 및 prefetch 테스트",
   },
 ];
 

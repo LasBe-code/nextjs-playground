@@ -1,5 +1,5 @@
-import Fetch from "@/components/Fetch";
 import style from "@/constants/style";
+import Fetch from "./Fetch";
 
 export default function ApiMethod() {
   return (
