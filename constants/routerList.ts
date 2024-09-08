@@ -19,6 +19,11 @@ const routerList = [
     path: "/3-dynamic-routes",
     desc: "동적 라우팅",
   },
+  {
+    label: "SearchParam",
+    path: "/4-search-param",
+    desc: "쿼리 스트링 파싱",
+  },
 ];
 
 export default routerList;
