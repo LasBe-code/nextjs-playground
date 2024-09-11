@@ -10,8 +10,8 @@ const routerList = [
     desc: "내장 API 사용 및 method",
   },
   {
-    label: "Server Rendering",
-    path: "/2-server_rendering",
+    label: "Prefetch",
+    path: "/2-prefetch",
     desc: "서버 렌더링 및 prefetch",
   },
   {

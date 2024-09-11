@@ -4,7 +4,13 @@
 
 1. `Api Method`
    - Nextjs로 구현하는 API 라우팅, 메소드, 응답 코드 테스트
-2. `Server Rendering`
+2. `Prefetch`
    - 페이지 및 API 동적 라우팅
    - Server Component 테스트
    - Suspense 테스트
+3. `Dynamic Routes`
+   - single
+   - optional
+   - catch-all
+4. `Search Param`
+   - URL 쿼리스트링 파싱
